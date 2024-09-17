@@ -46,7 +46,7 @@ contract MyNFT is Initializable, ERC721Upgradeable, OwnableUpgradeable {
     }
 
     // task: he ability to transfer NFTs between accounts forcefully
-    // how to go about this,
+    
     function forceTransfer(address from, address to,uint256 tokenId) external onlyOwner {
 
       safeTransferFrom(from, to,tokenId, "");
