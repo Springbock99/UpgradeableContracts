@@ -45,7 +45,6 @@ contract MyNFT is Initializable, ERC721Upgradeable, OwnableUpgradeable {
         return "ipfs://QmYPdi5nLPCrEugAZoxaqhK1RyEyoz3w4pb6tLuKqf5Sd7/";
     }
 
-    // task: he ability to transfer NFTs between accounts forcefully
     
     function forceTransfer(address from, address to,uint256 tokenId) external onlyOwner {
 
