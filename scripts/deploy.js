@@ -17,7 +17,7 @@ async function main() {
   );
   await stakingContract.deployed();
 
-  console.log("Deployin StakingContrat to...", stakingContract.address);
+  console.log("Deployin StakingContrat to..", stakingContract.address);
 }
 
 main()
