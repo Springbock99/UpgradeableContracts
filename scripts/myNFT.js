@@ -24,7 +24,7 @@ async function main() {
   };
 
   fs.writeFileSync(jsonFileName, JSON.stringify(addressData, null, 2));
-  console.log(`Contract address saved to ${jsonFileName}`);
+  console.log(`Contract address saved to... ${jsonFileName}`);
 }
 
 main()
